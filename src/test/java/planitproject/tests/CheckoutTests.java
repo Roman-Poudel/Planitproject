@@ -1,5 +1,5 @@
 package planitproject.tests;
 
-public class CheckoutTests {
+public class CheckoutTests extends BaseTestSuite {
 
 }

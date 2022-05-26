@@ -1,4 +1,4 @@
-package com.planittesting.jupitertoys.tests;
+package planitproject.tests;
 
 import java.time.Duration;
 
@@ -15,7 +15,7 @@ public abstract class BaseTestSuite {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
         driver.manage().window().maximize();
-        driver.navigate().to("https://www.saucedemo.com//");
+        driver.navigate().to("https://www.saucedemo.com/");
     }
 
     @AfterEach
